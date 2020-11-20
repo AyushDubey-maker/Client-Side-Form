@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Side Form Validation</title>
+    <link rel="stylesheet" href="client-side.css">
+    <script src="client-side.js" defer></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+
+        </div>
+        <form  class="form" id="form">
+            <div class="form-control">
+                <label for="">Username</label>
+                 <input type="text" name="username" id="username" placeholder="Enter Username">
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Email</label>
+                 <input type="email" name="email" id="email" placeholder="Enter Email-Id">
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Password</label>
+                 <input type="password" name="password" id="password" placeholder="Enter Password">
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Confirm Password</label>
+                 <input type="password" name="password2" id="password2" placeholder="Confirm Password">
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small>Error Message</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
